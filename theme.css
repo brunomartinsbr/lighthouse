@@ -1,0 +1,218 @@
+
+header {
+
+  flex-direction: row;
+  padding: 50px;
+  margin: 0 auto;
+
+}
+
+body {
+  margin: 0;
+  font-family: Source Sans Pro, Arial;
+}
+
+footer {
+
+  align-items: stretch;
+  flex-direction: column;
+  align-content: space-between;
+  flex-flow: row-wrap;
+
+  color: white;
+  background-color: black;
+  padding: 50px;
+
+}
+
+ a {
+  color: white;
+  margin-left: 500px;
+}
+
+
+}
+.menu-link:hover {
+  color: yellow;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+  transition-delay: 3s;
+}
+
+
+
+h1 {
+  font-style: bold;
+
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 0;
+
+}
+
+article p {
+  letter-spacing: -2px;
+}
+
+
+
+nav a {
+  text-transform: uppercase;
+}
+
+
+#skills {
+  padding: 50px;
+}
+.blue-background {
+  background-color: #52528C;
+  color: white;
+
+
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.parent {
+  display: flex;
+}
+
+.a {
+  order: 3;
+}
+.menu-link {
+  margin-left: 10px;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date {
+  text-align: right;
+  box-sizing: border-box;
+  padding-right: 10px;
+
+}
+.company-name {
+  text-align: rignt;
+  padding-right: 10px;
+  margin: 0;
+  flex: 1;
+}
+
+.date-and-job {
+  display: flex;
+  align-items: flex-start;
+}
+
+.experience-entry p {
+  flex: 2;
+}
+
+.company-details {
+  display: flex;
+  align-items: flex-start;
+}
+
+ul {
+  list-style-type: none;
+}
+#contact {
+
+}
+
+/*
+a:hover {
+  color: yellow;
+}
+*/
+
+p + p::first-letter {
+    font-weight: bold;
+
+}
+
+p::selection {
+  background:  gray;
+
+}
+
+meter::-webkit-meter-bar {
+  border-radius: 10px;
+  background: white;
+  width: 500px;
+  border-width: 0;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: orange;
+}
+
+.meter {
+  background:
+}
+
+#skills div{
+
+}
+
+#skills  h1 {
+  margin: 31px;
+}
+
+#skills div meter {
+  flex-grow: 1;
+  margin: 20px 10px;
+}
+
+.skill-bar {
+  display: flex;
+  align-items: baseline;
+}
+
+.menu {
+
+}
+
+@media screen (min-width: 500px) {
+  main {
+    display: flex;
+  }
+}
+
+/* Layout and flexbox */
+nav div a {
+  margin-left: 10px;
+
+}
+
+/* Transitions */
+
+nav a {
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+/* pseudo-selectors*/
+
+nav a {
+
+}
